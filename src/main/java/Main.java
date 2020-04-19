@@ -1,14 +1,9 @@
-import com.fasterxml.jackson.databind.util.JSONPObject;
-import com.mongodb.BasicDBObject;
-import com.mongodb.DBObject;
 import com.mongodb.MongoClient;
 import com.mongodb.MongoClientURI;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
-import com.mongodb.util.JSON;
 import org.bson.Document;
 import org.json.JSONObject;
-
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
